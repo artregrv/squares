@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.16)
 
 project(squares VERSION 0.1.0)
 
+set(CMAKE_AUTOMOC ON)
+
 file(GLOB HEADERS "*.h")
 file(GLOB SOURCE "*.cpp")
 
